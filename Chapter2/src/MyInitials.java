@@ -1,4 +1,13 @@
+/*
 
+Program: MyInitials.java          Date: 2022-09-12
+
+
+Author: Kearmouy Heng
+School: CHHS
+Course: Computer Science 20
+ 
+*/
 public class MyInitials 
 {
 
@@ -15,3 +24,13 @@ public class MyInitials
 	}
 
 }
+/*
+*   *     *      *
+*  *      *      *
+* *       *      *
+**        ********
+**        *      *
+* *       *      *
+*  *      *      *
+*   * .   *      * .
+*/

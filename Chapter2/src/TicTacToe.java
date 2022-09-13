@@ -1,4 +1,13 @@
+/*
 
+Program: TicTacToe.java          Date: 2022-09-12
+
+
+Author: Kearmouy Heng
+School: CHHS
+Course: Computer Science 20
+ 
+*/
 public class TicTacToe 
 {
 
@@ -19,3 +28,16 @@ System.out.print("       |       | \n"
 	}
 
 }
+/*
+       |       | 
+       |       | 
+       |       | 
+-----------------------
+       |       | 
+       |   x   | 
+       |       | 
+-----------------------
+       |       | 
+       |       | 
+       |       | 
+*/
