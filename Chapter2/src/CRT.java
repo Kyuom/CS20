@@ -3,7 +3,6 @@ Program: CRT.java          Date: 2022-09-13
 Author: Kearmouy Heng
 School: CHHS
 Course: Computer Science 20
- 
 */
 public class CRT 
 {
@@ -24,8 +23,11 @@ public class CRT
  			
  			5.
  			{
- 			gradeCalculator
+ 			package gradeCalculator;
  			}
+ 			
+ 			6. 
+ 			public class AverageScore
  			
  			7.
  			A source code is the code that the programmer typed. It must be able to be 

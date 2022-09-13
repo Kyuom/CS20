@@ -1,16 +1,8 @@
 /*
-<<<<<<< HEAD
 Program: BinaryNumbers.java          Date: 2022-09-12
-=======
-
-Program: BinaryNumbers.java          Date: 2022-09-12
-
-
->>>>>>> refs/remotes/origin/master
 Author: Kearmouy Heng
 School: CHHS
 Course: Computer Science 20
- 
 */
 public class BinaryNumbers 
 {
