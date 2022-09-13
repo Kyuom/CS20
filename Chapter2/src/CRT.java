@@ -28,6 +28,7 @@ public class CRT
  			
  			6. 
  			public class AverageScore
+ 			{}
  			
  			7.
  			A source code is the code that the programmer typed. It must be able to be 
