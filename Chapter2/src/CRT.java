@@ -22,9 +22,7 @@ public class CRT
  			// The AverageScore class displays the average of a set of scores
  			
  			5.
- 			{
  			package gradeCalculator;
- 			}
  			
  			6. 
  			public class AverageScore
