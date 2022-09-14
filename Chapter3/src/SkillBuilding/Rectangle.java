@@ -10,7 +10,7 @@ public class Rectangle
 		int perimeter = 2 * width + 2 * length;
 		
 		System.out.print("The width of the rectangle is: " + width + "\nThe length of the rectangle is: " + length
-				+ "\nThe perimeter of the rectangle is:" + perimeter);
+				+ "\nThe perimeter of the rectangle is: " + perimeter);
 	}
 
 }
