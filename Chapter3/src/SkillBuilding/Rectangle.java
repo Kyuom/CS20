@@ -14,3 +14,8 @@ public class Rectangle
 	}
 
 }
+/*
+The width of the rectangle is: 4
+The length of the rectangle is: 13
+The perimeter of the rectangle is: 34
+*/
