@@ -1,3 +1,9 @@
+/*
+Program: Rectangle.java          Date: 2022-09-14
+Author: Kearmouy Heng
+School: CHHS
+Course: Computer Science 20
+*/
 package SkillBuilding;
 
 public class Rectangle 

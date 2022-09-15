@@ -1,3 +1,9 @@
+/*
+Program: DistanceP1.java          Date: 2022-09-14
+Author: Kearmouy Heng
+School: CHHS
+Course: Computer Science 20
+*/
 package SkillBuilding;
 
 public class DistanceP1 
