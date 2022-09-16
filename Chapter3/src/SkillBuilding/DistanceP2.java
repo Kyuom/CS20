@@ -18,9 +18,7 @@ public class DistanceP2
 		System.out.print("There is a race with three segments, please enter the distance of each race segment in km "
 				+ "in the following space below. \n\n");
 		
-		double Segment1;
-		double Segment2;
-		double Segment3;
+		double Segment1, Segment2, Segment3;
 		
 		System.out.print("Enter the distance for segment 1 of the race to the nearest hundredth: ");
 		Segment1 = UserInput.nextDouble();
@@ -30,6 +28,7 @@ public class DistanceP2
 		
 		System.out.print("Enter the distance for segment 3 of the race to the nearest hundredth: ");
 		Segment3 = UserInput.nextDouble();
+		UserInput.close();
 		
 		double total = Segment1 + Segment2 + Segment3;
 		

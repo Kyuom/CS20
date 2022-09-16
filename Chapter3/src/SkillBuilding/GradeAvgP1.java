@@ -15,11 +15,7 @@ public class GradeAvgP1
 	{
 		Scanner UserInput = new Scanner(System.in);
 		
-		int g1;
-		int g2;
-		int g3;
-		int g4;
-		int g5;
+		int g1, g2, g3, g4, g5;
 		
 		System.out.print("Please enter 5 grades below \n\n");
 		
@@ -37,6 +33,7 @@ public class GradeAvgP1
 
 		System.out.print("Grade 5: ");
 		g5 = UserInput.nextInt();
+		UserInput.close();
 		
 		int avg = (g1 + g2 + g3 + g4 + g5) / 5;
 		

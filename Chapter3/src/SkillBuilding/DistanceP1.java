@@ -11,10 +11,8 @@ public class DistanceP1
 
 	public static void main(String[] args) 
 	{
-		double segment1 = 12.2;
-		double segment2 = 10.6;
-		double segment3 = 5.8;
-		double total = segment1 + segment2 + segment3;
+		double segment1 = 12.2, segment2 = 10.6, segment3 = 5.8, total = segment1 + segment2 + segment3;
+		NumberFormat decimal = 
 		
 		System.out.print("There is a race with three segments, the first segment is " + segment1 + "km, the second "
 				+ "segment is " + segment2 + "km, \nand the third segment is " + segment3 + "km. The total distance of"

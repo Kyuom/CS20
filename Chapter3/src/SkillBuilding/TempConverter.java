@@ -14,11 +14,12 @@ public class TempConverter
 	public static void main(String[] args) 
 	{
 		Scanner UserInput = new Scanner(System.in);
-		int ftemp;
-		int ctemp;
+		
+		int ftemp, ctemp;
 		
 		System.out.print("Enter a Fahrenheit temperature to be converted into the corresponding Celsius temperature: ");
 		ftemp = UserInput.nextInt();
+		UserInput.close();
 		
 		ctemp = (ftemp-32) * 5/9;
 		

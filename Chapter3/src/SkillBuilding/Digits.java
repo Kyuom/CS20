@@ -19,6 +19,7 @@ public class Digits
 		
 		System.out.print("Please enter a two digit number: ");
 		number = UserInput.nextInt();
+		UserInput.close();
 		
 		int ten = number / 10;
 		int one = number - (ten * 10);
@@ -31,3 +32,11 @@ public class Digits
 	}
 
 }
+/*
+Please enter a two digit number: 15
+
+You entered: 15
+
+Tens Place 	 Ones Place 
+1		 5
+*/
