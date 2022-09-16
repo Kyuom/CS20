@@ -27,3 +27,8 @@ public class CircleCircumference
 	}
 
 }
+/*
+Enter a radius: 8
+The radius you entered is 8. 
+The circumference of the circle is 50.24.
+*/
