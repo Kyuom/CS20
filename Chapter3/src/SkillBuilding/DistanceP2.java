@@ -7,6 +7,7 @@ Course: Computer Science 20
 package SkillBuilding;
 
 import java.util.Scanner;
+import java.text.NumberFormat;
 
 public class DistanceP2 
 {
@@ -19,6 +20,7 @@ public class DistanceP2
 				+ "in the following space below. \n\n");
 		
 		double Segment1, Segment2, Segment3;
+		NumberFormat decimal = NumberFormat.getNumberInstance();
 		
 		System.out.print("Enter the distance for segment 1 of the race to the nearest hundredth: ");
 		Segment1 = UserInput.nextDouble();
@@ -33,7 +35,7 @@ public class DistanceP2
 		double total = Segment1 + Segment2 + Segment3;
 		
 		System.out.print("\nYou entered " + Segment1 + "km for the distance of segment 1, " + Segment2 + "km for segment "
-				+ "2, and a distance of " + Segment3 + "km for segment 3. \nThe total distance of the race is " + total);
+				+ "2, and a distance of " + Segment3 + "km for segment 3. \nThe total distance of the race is " + decimal.format(total));
 
 	}
 
