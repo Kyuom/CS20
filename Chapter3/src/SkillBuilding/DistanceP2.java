@@ -19,23 +19,23 @@ public class DistanceP2
 		System.out.print("There is a race with three segments, please enter the distance of each race segment in km "
 				+ "in the following space below. \n\n");
 		
-		double Segment1, Segment2, Segment3;
+		double segment1, segment2, segment3;
 		NumberFormat decimal = NumberFormat.getNumberInstance();
 		
 		System.out.print("Enter the distance for segment 1 of the race to the nearest hundredth: ");
-		Segment1 = UserInput.nextDouble();
+		segment1 = UserInput.nextDouble();
 		
 		System.out.print("Enter the distance for segment 2 of the race to the nearest hundredth: ");
-		Segment2 = UserInput.nextDouble();
+		segment2 = UserInput.nextDouble();
 		
 		System.out.print("Enter the distance for segment 3 of the race to the nearest hundredth: ");
-		Segment3 = UserInput.nextDouble();
+		segment3 = UserInput.nextDouble();
 		UserInput.close();
 		
-		double total = Segment1 + Segment2 + Segment3;
+		double total = segment1 + segment2 + segment3;
 		
-		System.out.print("\nYou entered " + Segment1 + "km for the distance of segment 1, " + Segment2 + "km for segment "
-				+ "2, and a distance of " + Segment3 + "km for segment 3. \nThe total distance of the race is " + decimal.format(total));
+		System.out.print("\nYou entered " + segment1 + "km for the distance of segment 1, " + segment2 + "km for segment "
+				+ "2, and a distance of " + segment3 + "km for segment 3. \nThe total distance of the race is " + decimal.format(total));
 
 	}
 
